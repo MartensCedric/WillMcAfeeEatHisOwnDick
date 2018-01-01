@@ -23,6 +23,7 @@ function init(){
 	getCurrBpi();
 }
 init();
+setInterval(init, 10000);
 
 function getDaysLeft(){
 	n = dayDiff(today, eDate);
